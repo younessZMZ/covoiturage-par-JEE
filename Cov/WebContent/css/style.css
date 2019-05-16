@@ -1,0 +1,125 @@
+
+body
+{
+	background-image: url("one.jpg");
+	background: url("one.jpg") fixed no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+h1{
+	color: white;
+	text-align: center;
+	padding-top: 7cm;
+}
+.cherche table{
+	%border: 1px solid black;
+	position: relative;
+	top: 6cm;	
+	left: 30%;
+		
+}
+.cherche2 table{
+	border: 1px solid black;
+	position: relative;
+	top: 7cm;
+	left: 15%;
+		
+}
+.tab{
+	border-collapse: collapse;
+	border: 1px solid black;
+	background-color: gray;
+}
+.cherche td{
+	width: 5cm;
+	height: 1cm;
+	text-align: center;
+	font-size: 1.5em;
+	color: white;
+}
+.tab td{
+	border: 1px solid black;
+	width: 5cm;
+	height: 1cm;
+	text-align: center;
+}
+th{
+	
+	border: 1px solid black;
+	width: 5cm;
+	height: 1cm;
+}
+p{
+	color : white;
+	font-size : 1.5em;
+}
+.form {
+   position:absolute;
+   top:50%;
+   left:50%;
+   width:300px; /* A toi de donner la bonne largeur */
+   height:200px; /* A toi de donner la bonne hauteur */
+   margin-left:-150px; /* -largeur/2 */
+   margin-top:-100px; /* -hauteur/2 */
+}
+.retour{
+	color : white;
+	font-size : 1.5em;
+	float:  top;
+}
+caption{
+	color : white;
+	font-size : 1.5em;
+	position: relative;
+	bottom: 0.5cm;
+}
+.bien td{
+	width: 5cm;
+	position: relative;
+	top: 1cm;
+	left: 0.5cm;
+}
+.footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+}
+.logout{
+	color : white;
+	font-size : 1.5em;
+	position : relative;
+	left: 90%;
+}
+input[type=text], input[type=password],input[type=time], input[type=date] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  %background-color: #3CBC8D;
+  %color: white;
+}
+.button1{
+	border-radius:12px 0 12px 0;
+	background: #478bf9;
+	border:none;
+	color:#fff;
+	font:bold 12px Verdana;
+	padding:6px 0 6px 0;
+	width: 4cm;
+	display: block;
+}
+.button2{
+	border-radius:12px 0 12px 0;
+	background: #478bf9;
+	border:none;
+	color:#fff;
+	font:bold 12px Verdana;
+	padding:6px 0 6px 0;
+	width: 4cm;
+	display: block;
+}
+
